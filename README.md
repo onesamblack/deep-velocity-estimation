@@ -59,7 +59,7 @@ If you do want to verify, please include the following details with your verific
 
 The results of the run are located [here](https://wandb.ai/sam-black/uncategorized/reports/Results-from-Deep-Velocity-Estimation--VmlldzozODM5ODY)
 
-
+Trained parameters for the best epoch are [here](https://storage.googleapis.com/medium-post-1/_6.pt)
 
 ## References
 
