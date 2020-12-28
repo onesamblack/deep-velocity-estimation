@@ -27,15 +27,7 @@ See the post for more details on the experiments and the associated model archit
 
 ## Usage
 
-From the root of this repo, run
-
-```bash
-python3 src/train.py
-```
-
-
-
-## Installation
+### Installation
 
 Processing the images requires FFMPEG. See the installation guidelines [here](https://ffmpeg.org/download.html) for your platform
 
@@ -44,6 +36,28 @@ To install the python requirements, run:
 ```
 pip install -r requirements.txt
 ```
+
+### Run model training
+
+After installing the requirements, from the root directory of the repo, run
+
+```bash
+python3 src/train.py
+```
+
+
+## Verification
+
+As referenced above, the MSE on the model is less than 1, which could be close to SOTA. I'm looking for someone to verify the results I published on the blog.
+
+If you do want to verify, please include the following details with your verification:
+ 
+ - Platform
+ - GPU Type
+ - Batch Size
+ - Any modifications to the parameters run
+
+The results of the run are located [here](https://wandb.ai/sam-black/uncategorized/reports/Results-from-Deep-Velocity-Estimation--VmlldzozODM5ODY)
 
 
 
